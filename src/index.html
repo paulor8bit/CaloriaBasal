@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Caloria Basal</title>
+	<link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+<header wm-include="/pages/template/header.html"></header>
+<form id="form-adiciona">
+    <div class="card">
+        <div class="card-header">
+            <h5 class="mb-0">
+                Calculando seu gasto de caloria Basal
+            </h5>
+        </div>
+        <div class="card-body">
+            <form action="" class="container-fluid">
+                <div class="form-row">
+                    <div class="col-12">
+                        <div class="form-group">
+                            <label for="nome">Peso</label>
+                            <input type="text" class="form-control" name="peso" placeholder="Digite seu peso em KG">
+                        </div>
+                    </div>
+                </div> 
+    
+                <div class="form-row">
+                    <div class="col-12">
+                        <div class="form-group">
+                            <label for="nome">Altura</label>
+                            <input type="text" class="form-control" name="altura" placeholder="Digite sua altura em CM">
+                        </div>
+                    </div>
+                </div> 
+    
+                <div class="form-row">
+                    <div class="col-12">
+                        <div class="form-group">
+                            <label for="nome">Idade</label>
+                            <input type="text" class="form-control" name="idade" placeholder="Digite sua idade">
+                        </div>
+                    </div>
+                </div>
+                <hr>
+    
+                <div class="form-row mb-0">
+                    <div class="col-12 d-flex justify-content-end">
+                        <button class="btn btn-primary mr-2" type="submit" id=adcionar>Incluir</button>
+                        <button class="btn btn-secondary" type="reset">Cancelar</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    </form>
+<footer wm-include="/pages/template/footer.html"></footer>
+<script src="app.js"></script>
+
+   
+</body>
+<style>
+/* body {
+    margin: 0;
+    background-color: #0D262D;
+    color: #fff;
+    height: 100%;
+} */
+</style>
+
+</html>
